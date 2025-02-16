@@ -1,6 +1,8 @@
 module github.com/stackrox/rox
 
-go 1.19
+go 1.21
+
+toolchain go1.22.9
 
 require (
 	cloud.google.com/go/artifactregistry v1.14.6
@@ -459,7 +461,7 @@ replace (
 	// where we provide the actual `go.sum`.
 	github.com/mikefarah/yamlg/v2 => gopkg.in/yaml.v2 v2.4.0
 
-	github.com/nxadm/tail => github.com/stackrox/tail v1.4.9-0.20210831224919-407035634f5d
+	github.com/nxadm/tail => github.com/stackrox/tail v1.4.9-0.20231010141446-ba755e4d73b6
 
 	// github.com/stackrox/helm-operator is a modified fork of github.com/operator-framework/helm-operator-plugins that
 	// we currently depend on.
