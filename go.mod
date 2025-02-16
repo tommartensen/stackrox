@@ -1,6 +1,8 @@
 module github.com/stackrox/rox
 
-go 1.19
+go 1.21
+
+toolchain go1.22.9
 
 require (
 	cloud.google.com/go/artifactregistry v1.14.6
@@ -59,7 +61,7 @@ require (
 	github.com/heimdalr/dag v1.4.0
 	github.com/helm/helm-mapkubeapis v0.4.1
 	github.com/heroku/docker-registry-client v0.0.0
-	github.com/jackc/pgtype v1.14.2
+	github.com/jackc/pgtype v1.14.4
 	github.com/jackc/pgx/v4 v4.18.2
 	github.com/jackc/pgx/v5 v5.5.4
 	github.com/joshdk/go-junit v1.0.0
