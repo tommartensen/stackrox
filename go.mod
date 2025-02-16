@@ -1,6 +1,8 @@
 module github.com/stackrox/rox
 
-go 1.19
+go 1.21
+
+toolchain go1.22.9
 
 require (
 	cloud.google.com/go/artifactregistry v1.14.6
@@ -83,7 +85,7 @@ require (
 	github.com/openshift/client-go v0.0.0-20230926161409-848405da69e1
 	github.com/openshift/runtime-utils v0.0.0-20230921210328-7bdb5b9c177b
 	github.com/operator-framework/helm-operator-plugins v0.0.0-00010101000000-000000000000
-	github.com/owenrumney/go-sarif/v2 v2.3.0
+	github.com/owenrumney/go-sarif/v2 v2.3.3
 	github.com/pkg/browser v0.0.0-20210911075715-681adbf594b8
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.19.0
