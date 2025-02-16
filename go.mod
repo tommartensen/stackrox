@@ -1,6 +1,8 @@
 module github.com/stackrox/rox
 
-go 1.19
+go 1.21
+
+toolchain go1.22.9
 
 require (
 	cloud.google.com/go/artifactregistry v1.14.6
@@ -87,7 +89,7 @@ require (
 	github.com/pkg/browser v0.0.0-20210911075715-681adbf594b8
 	github.com/pkg/errors v0.9.1
 	github.com/prometheus/client_golang v1.19.0
-	github.com/prometheus/client_model v0.6.0
+	github.com/prometheus/client_model v0.6.1
 	github.com/prometheus/common v0.48.0
 	github.com/quay/claircore v1.5.25
 	github.com/quay/claircore/toolkit v1.1.1
