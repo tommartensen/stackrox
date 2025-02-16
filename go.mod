@@ -1,6 +1,8 @@
 module github.com/stackrox/rox
 
-go 1.19
+go 1.21
+
+toolchain go1.22.9
 
 require (
 	cloud.google.com/go/artifactregistry v1.14.6
@@ -61,7 +63,7 @@ require (
 	github.com/heroku/docker-registry-client v0.0.0
 	github.com/jackc/pgtype v1.14.2
 	github.com/jackc/pgx/v4 v4.18.2
-	github.com/jackc/pgx/v5 v5.5.4
+	github.com/jackc/pgx/v5 v5.5.5
 	github.com/joshdk/go-junit v1.0.0
 	github.com/klauspost/compress v1.17.7
 	github.com/lib/pq v1.10.9
@@ -138,8 +140,8 @@ require (
 	gopkg.in/mcuadros/go-syslog.v2 v2.3.0
 	gopkg.in/robfig/cron.v2 v2.0.0-20150107220207-be2e0b0deed5
 	gopkg.in/yaml.v3 v3.0.1
-	gorm.io/driver/postgres v1.5.6
-	gorm.io/gorm v1.25.7-0.20240204074919-46816ad31dde
+	gorm.io/driver/postgres v1.5.11
+	gorm.io/gorm v1.25.10
 	helm.sh/helm/v3 v3.14.2
 	k8s.io/api v0.29.2
 	k8s.io/apiextensions-apiserver v0.29.2
