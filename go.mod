@@ -1,6 +1,8 @@
 module github.com/stackrox/rox
 
-go 1.19
+go 1.21
+
+toolchain go1.22.9
 
 require (
 	cloud.google.com/go/artifactregistry v1.14.6
@@ -72,7 +74,7 @@ require (
 	github.com/moby/sys/mountinfo v0.7.1
 	github.com/np-guard/cluster-topology-analyzer/v2 v2.2.0
 	github.com/np-guard/netpol-analyzer v1.0.1
-	github.com/nxadm/tail v1.4.8
+	github.com/nxadm/tail v1.4.11
 	github.com/olekukonko/tablewriter v0.0.5
 	github.com/onsi/ginkgo/v2 v2.16.0
 	github.com/onsi/gomega v1.31.1
