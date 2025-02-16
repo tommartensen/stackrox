@@ -1,6 +1,8 @@
 module github.com/stackrox/rox
 
-go 1.19
+go 1.21
+
+toolchain go1.22.9
 
 require (
 	cloud.google.com/go/artifactregistry v1.14.6
@@ -63,7 +65,7 @@ require (
 	github.com/jackc/pgx/v4 v4.18.2
 	github.com/jackc/pgx/v5 v5.5.4
 	github.com/joshdk/go-junit v1.0.0
-	github.com/klauspost/compress v1.17.7
+	github.com/klauspost/compress v1.17.11
 	github.com/lib/pq v1.10.9
 	github.com/machinebox/graphql v0.2.2
 	github.com/mailru/easyjson v0.7.7
