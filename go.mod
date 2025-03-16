@@ -1,10 +1,12 @@
 module github.com/stackrox/rox
 
-go 1.19
+go 1.23.0
+
+toolchain go1.23.7
 
 require (
 	cloud.google.com/go/artifactregistry v1.14.6
-	cloud.google.com/go/compute/metadata v0.2.3
+	cloud.google.com/go/compute/metadata v0.3.0
 	cloud.google.com/go/containeranalysis v0.11.3
 	cloud.google.com/go/securitycenter v1.24.3
 	cloud.google.com/go/storage v1.37.0
@@ -158,7 +160,6 @@ require (
 
 require (
 	cloud.google.com/go v0.112.0 // indirect
-	cloud.google.com/go/compute v1.23.3 // indirect
 	cloud.google.com/go/iam v1.1.5 // indirect
 	cloud.google.com/go/longrunning v0.5.4 // indirect
 	dario.cat/mergo v1.0.0 // indirect
@@ -402,7 +403,6 @@ require (
 	golang.org/x/mod v0.15.0 // indirect
 	golang.org/x/term v0.18.0 // indirect
 	gomodules.xyz/jsonpatch/v2 v2.4.0 // indirect
-	google.golang.org/appengine v1.6.8 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20240122161410-6c6643bf1457 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240116215550-a9fa1716bcac // indirect
 	gopkg.in/go-jose/go-jose.v2 v2.6.3 // indirect
@@ -477,7 +477,7 @@ replace (
 	//       there is a mix of header auth and body auth in existence, which
 	//       the library solves with autosensing + caching, and what we don't
 	//       want to reimplement in our code.
-	golang.org/x/oauth2 => github.com/stackrox/oauth2 v0.0.0-20240305225512-3737c3c758df
+	golang.org/x/oauth2 => github.com/stackrox/oauth2 v0.27.0
 
 	gopkg.in/yaml.v2 => github.com/stackrox/yaml/v2 v2.4.1
 	gopkg.in/yaml.v3 => github.com/stackrox/yaml/v3 v3.0.0
