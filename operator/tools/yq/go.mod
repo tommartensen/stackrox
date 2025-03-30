@@ -1,11 +1,13 @@
 module github.com/stackrox/rox/operator/tools/yq
 
-go 1.19
+go 1.24
+
+toolchain go1.24.1
 
 require github.com/mikefarah/yq/v4 v4.42.1
 
 require (
-	github.com/a8m/envsubst v1.4.2 // indirect
+	github.com/a8m/envsubst v1.4.3 // indirect
 	github.com/alecthomas/participle/v2 v2.1.1 // indirect
 	github.com/dimchansky/utfbom v1.1.1 // indirect
 	github.com/elliotchance/orderedmap v1.5.1 // indirect
