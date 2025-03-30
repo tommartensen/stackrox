@@ -1,6 +1,6 @@
 module github.com/stackrox/rox
 
-go 1.19
+go 1.22.9
 
 require (
 	cloud.google.com/go/artifactregistry v1.14.6
@@ -294,7 +294,7 @@ require (
 	github.com/kevinburke/ssh_config v1.2.0 // indirect
 	github.com/klauspost/pgzip v1.2.6 // indirect
 	github.com/knqyf263/go-apk-version v0.0.0-20200609155635-041fdbb8563f // indirect
-	github.com/knqyf263/go-deb-version v0.0.0-20190517075300-09fca494f03d // indirect
+	github.com/knqyf263/go-deb-version v0.0.0-20241115132648-6f4aee6ccd23 // indirect
 	github.com/knqyf263/go-rpm-version v0.0.0-20220614171824-631e686d1075 // indirect
 	github.com/kr/pretty v0.3.1 // indirect
 	github.com/kr/text v0.2.0 // indirect
