@@ -1,6 +1,8 @@
 module github.com/stackrox/rox
 
-go 1.19
+go 1.21
+
+toolchain go1.22.9
 
 require (
 	cloud.google.com/go/artifactregistry v1.14.6
@@ -33,7 +35,7 @@ require (
 	github.com/georgysavva/scany/v2 v2.1.0
 	github.com/ghodss/yaml v1.0.1-0.20190212211648-25d852aebe32
 	github.com/go-jose/go-jose/v3 v3.0.3
-	github.com/go-logr/logr v1.4.1
+	github.com/go-logr/logr v1.4.2
 	github.com/go-logr/zapr v1.3.0
 	github.com/godbus/dbus/v5 v5.1.0
 	github.com/gofrs/uuid v4.4.0+incompatible
@@ -42,7 +44,7 @@ require (
 	github.com/golang/mock v1.6.0
 	github.com/golang/protobuf v1.5.4
 	github.com/google/certificate-transparency-go v1.1.7
-	github.com/google/gnostic-models v0.6.9-0.20230804172637-c7be7c783f49
+	github.com/google/gnostic-models v0.6.9
 	github.com/google/go-cmp v0.6.0
 	github.com/google/go-containerregistry v0.19.0
 	github.com/google/uuid v1.6.0
@@ -74,8 +76,8 @@ require (
 	github.com/np-guard/netpol-analyzer v1.0.1
 	github.com/nxadm/tail v1.4.8
 	github.com/olekukonko/tablewriter v0.0.5
-	github.com/onsi/ginkgo/v2 v2.16.0
-	github.com/onsi/gomega v1.31.1
+	github.com/onsi/ginkgo/v2 v2.19.0
+	github.com/onsi/gomega v1.33.1
 	github.com/opencontainers/go-digest v1.0.0
 	github.com/opencontainers/image-spec v1.1.0
 	github.com/openshift-online/ocm-sdk-go v0.1.405
@@ -109,7 +111,7 @@ require (
 	github.com/stackrox/k8s-overlay-patch v0.0.0-20230704092804-d66fa79cb2d1
 	github.com/stackrox/pkcs7 v0.0.0-20240314170115-841ca6b5f88d
 	github.com/stackrox/scanner v0.0.0-20240110222630-351caa1e0024
-	github.com/stretchr/testify v1.8.4
+	github.com/stretchr/testify v1.9.0
 	github.com/tecbot/gorocksdb v0.0.0-20191217155057-f0fad39f321c
 	github.com/tidwall/gjson v1.17.1
 	github.com/tkuchiki/go-timezone v0.2.2
@@ -120,21 +122,21 @@ require (
 	go.uber.org/goleak v1.3.0
 	go.uber.org/mock v0.4.0
 	go.uber.org/zap v1.26.0
-	golang.org/x/crypto v0.21.0
+	golang.org/x/crypto v0.26.0
 	golang.org/x/exp v0.0.0-20240110193028-0dcbfd608b1e
-	golang.org/x/net v0.22.0
+	golang.org/x/net v0.28.0
 	golang.org/x/oauth2 v0.17.0
-	golang.org/x/sync v0.6.0
-	golang.org/x/sys v0.18.0
-	golang.org/x/text v0.14.0
+	golang.org/x/sync v0.8.0
+	golang.org/x/sys v0.23.0
+	golang.org/x/text v0.17.0
 	golang.org/x/time v0.5.0
-	golang.org/x/tools v0.18.0
+	golang.org/x/tools v0.24.0
 	golang.stackrox.io/grpc-http1 v0.3.9
 	google.golang.org/api v0.157.0
 	google.golang.org/genproto v0.0.0-20240116215550-a9fa1716bcac
 	google.golang.org/grpc v1.61.1
 	google.golang.org/grpc/examples v0.0.0-20210902184326-c93e472777b9
-	google.golang.org/protobuf v1.33.0
+	google.golang.org/protobuf v1.35.1
 	gopkg.in/mcuadros/go-syslog.v2 v2.3.0
 	gopkg.in/robfig/cron.v2 v2.0.0-20150107220207-be2e0b0deed5
 	gopkg.in/yaml.v3 v3.0.1
@@ -149,7 +151,7 @@ require (
 	k8s.io/client-go v0.29.2
 	k8s.io/kubectl v0.29.2
 	k8s.io/kubelet v0.29.2
-	k8s.io/utils v0.0.0-20240102154912-e7106e64919e
+	k8s.io/utils v0.0.0-20240711033017-18e509b52bc8
 	sigs.k8s.io/controller-runtime v0.17.2
 	sigs.k8s.io/controller-tools v0.14.0
 	sigs.k8s.io/e2e-framework v0.3.0
@@ -237,15 +239,15 @@ require (
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-openapi/analysis v0.21.4 // indirect
 	github.com/go-openapi/errors v0.20.4 // indirect
-	github.com/go-openapi/jsonpointer v0.20.0 // indirect
+	github.com/go-openapi/jsonpointer v0.21.0 // indirect
 	github.com/go-openapi/jsonreference v0.20.2 // indirect
 	github.com/go-openapi/loads v0.21.2 // indirect
 	github.com/go-openapi/runtime v0.26.0 // indirect
 	github.com/go-openapi/spec v0.20.11 // indirect
 	github.com/go-openapi/strfmt v0.21.8 // indirect
-	github.com/go-openapi/swag v0.22.4 // indirect
+	github.com/go-openapi/swag v0.23.0 // indirect
 	github.com/go-openapi/validate v0.22.3 // indirect
-	github.com/go-task/slim-sprig v0.0.0-20230315185526-52ccab3ef572 // indirect
+	github.com/go-task/slim-sprig/v3 v3.0.0 // indirect
 	github.com/gobuffalo/flect v1.0.2 // indirect
 	github.com/gobwas/glob v0.2.3 // indirect
 	github.com/golang/glog v1.2.0 // indirect
@@ -255,7 +257,7 @@ require (
 	github.com/google/cel-go v0.17.7 // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
 	github.com/google/gofuzz v1.2.0 // indirect
-	github.com/google/pprof v0.0.0-20231023181126-ff6d637d2a7b // indirect
+	github.com/google/pprof v0.0.0-20240727154555-813a5fbdbec8 // indirect
 	github.com/google/s2a-go v0.1.7 // indirect
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510 // indirect
 	github.com/googleapis/enterprise-certificate-proxy v0.3.2 // indirect
@@ -343,7 +345,7 @@ require (
 	github.com/quay/claircore/updater/driver v1.0.0 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
 	github.com/rivo/uniseg v0.4.4 // indirect
-	github.com/rogpeppe/go-internal v1.11.0 // indirect
+	github.com/rogpeppe/go-internal v1.12.0 // indirect
 	github.com/rubenv/sql-migrate v1.5.2 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/sagikazarmark/locafero v0.3.0 // indirect
@@ -365,7 +367,7 @@ require (
 	github.com/stackrox/istio-cves v0.0.0-20221007013142-0bde9b541ec8 // indirect
 	github.com/stackrox/k8s-cves v0.0.0-20220818200547-7d0d1420c58d // indirect
 	github.com/stoewer/go-strcase v1.2.0 // indirect
-	github.com/stretchr/objx v0.5.0 // indirect
+	github.com/stretchr/objx v0.5.2 // indirect
 	github.com/subosito/gotenv v1.6.0 // indirect
 	github.com/syndtr/gocapability v0.0.0-20200815063812-42c35b437635 // indirect
 	github.com/syndtr/goleveldb v1.0.1-0.20220721030215-126854af5e6d // indirect
@@ -399,8 +401,8 @@ require (
 	go.opentelemetry.io/proto/otlp v1.0.0 // indirect
 	go.starlark.net v0.0.0-20230612165344-9532f5667272 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
-	golang.org/x/mod v0.15.0 // indirect
-	golang.org/x/term v0.18.0 // indirect
+	golang.org/x/mod v0.20.0 // indirect
+	golang.org/x/term v0.23.0 // indirect
 	gomodules.xyz/jsonpatch/v2 v2.4.0 // indirect
 	google.golang.org/appengine v1.6.8 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20240122161410-6c6643bf1457 // indirect
@@ -412,8 +414,8 @@ require (
 	gopkg.in/warnings.v0 v0.1.2 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	k8s.io/component-base v0.29.2 // indirect
-	k8s.io/klog/v2 v2.120.0 // indirect
-	k8s.io/kube-openapi v0.0.0-20240105020646-a37d4de58910 // indirect
+	k8s.io/klog/v2 v2.130.1 // indirect
+	k8s.io/kube-openapi v0.0.0-20250318190949-c8a335a9a2ff // indirect
 	modernc.org/gc/v3 v3.0.0-20240107210532-573471604cb6 // indirect
 	modernc.org/libc v1.41.0 // indirect
 	modernc.org/mathutil v1.6.0 // indirect
@@ -427,7 +429,8 @@ require (
 	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
 	sigs.k8s.io/kustomize/api v0.13.5-0.20230601165947-6ce0bf390ce3 // indirect
 	sigs.k8s.io/kustomize/kyaml v0.16.0 // indirect
-	sigs.k8s.io/structured-merge-diff/v4 v4.4.1 // indirect
+	sigs.k8s.io/randfill v1.0.0 // indirect
+	sigs.k8s.io/structured-merge-diff/v4 v4.6.0 // indirect
 )
 
 // HOW TO BUMP
