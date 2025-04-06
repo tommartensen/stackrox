@@ -1,6 +1,8 @@
 module github.com/stackrox/rox/operator/tools/kuttl
 
-go 1.19
+go 1.23
+
+toolchain go1.23.8
 
 require github.com/kudobuilder/kuttl v0.15.1-0.20240201073944-c735bec25959
 
@@ -68,7 +70,7 @@ require (
 	k8s.io/kube-openapi v0.0.0-20230717233707-2695361300d9 // indirect
 	k8s.io/utils v0.0.0-20230406110748-d93618cff8a2 // indirect
 	sigs.k8s.io/controller-runtime v0.16.3 // indirect
-	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
+	sigs.k8s.io/json v0.0.0-20241014173422-cfa47c3a1cc8 // indirect
 	sigs.k8s.io/kind v0.17.0 // indirect
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 	sigs.k8s.io/yaml v1.3.0 // indirect

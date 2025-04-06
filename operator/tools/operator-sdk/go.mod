@@ -1,6 +1,8 @@
 module github.com/stackrox/rox/operator/tools/kuttl
 
-go 1.19
+go 1.23
+
+toolchain go1.23.8
 
 require github.com/operator-framework/operator-sdk v1.34.1
 
@@ -221,7 +223,7 @@ require (
 	sigs.k8s.io/apiserver-network-proxy/konnectivity-client v0.28.0 // indirect
 	sigs.k8s.io/controller-runtime v0.16.3 // indirect
 	sigs.k8s.io/controller-tools v0.12.1 // indirect
-	sigs.k8s.io/json v0.0.0-20221116044647-bc3834ca7abd // indirect
+	sigs.k8s.io/json v0.0.0-20241014173422-cfa47c3a1cc8 // indirect
 	sigs.k8s.io/kubebuilder/v3 v3.13.1-0.20240119130530-7fba82c768f8 // indirect
 	sigs.k8s.io/kustomize/api v0.13.5-0.20230601165947-6ce0bf390ce3 // indirect
 	sigs.k8s.io/kustomize/kyaml v0.14.3-0.20230601165947-6ce0bf390ce3 // indirect
