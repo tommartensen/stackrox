@@ -447,7 +447,7 @@ require (
 // for Go build tools to accept the `go.mod`.
 replace (
 	github.com/facebookincubator/nvdtools => github.com/stackrox/nvdtools v0.0.0-20231111002313-57e262e4797e
-	github.com/gogo/protobuf => github.com/connorgorman/protobuf v1.2.2-0.20240207122816-e936d453291c
+	github.com/gogo/protobuf => github.com/connorgorman/protobuf ba06b47c162d
 
 	github.com/heroku/docker-registry-client => github.com/stackrox/docker-registry-client v0.0.0-20230714151239-78b1f5f70b8a
 
