@@ -3,4 +3,4 @@
 # And the stackrox/rox-ci-image repo for the original source and pinned versions.
 pycodestyle==2.10.0
 autopep8
-pylint==2.13.9
+pylint==3.3.7
